@@ -1,5 +1,5 @@
 import "./comm-container.css";
-import React, { useState } from "react";
+import { useState } from "react";
 
 type Option = {
   titulo: string;

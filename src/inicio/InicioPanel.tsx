@@ -6,13 +6,10 @@ import {
   faInstagram,
   faTelegram,
   faXTwitter,
-  faYoutube,
   faTrello,
 } from "@fortawesome/free-brands-svg-icons";
-import { useNavigate } from "react-router-dom";
 
 function InicioPanel() {
-  const navigate = useNavigate();
   return (
     <div className="inicio-panel">
       <div className="infopanel">

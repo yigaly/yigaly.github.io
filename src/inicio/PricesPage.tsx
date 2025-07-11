@@ -1,5 +1,4 @@
 import CommContainer from "../globales/CommContainer";
-import { useState } from "react";
 import NavigationButtons from "../globales/NavPanel";
 import { commData } from "../data/commData";
 import "../css/price-list.css";
@@ -19,7 +18,7 @@ function PricesPage() {
           <NavigationButtons />
         </div>
         <div className="content">
-          {commData.map((props, idx) => (
+          {commData.map((props) => (
             <div className="comm-sec">
               <CommContainer {...props} />
             </div>
