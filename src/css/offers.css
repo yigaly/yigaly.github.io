@@ -7,20 +7,14 @@
   margin-bottom: 20px;
   box-sizing: border-box;
 }
-.contenedor {
-  width: 100%;
-  align-items: center;
-}
-.contArr {
-  max-width: 80%;
-}
+
 @media (min-width: 600px) {
   .offer-container {
     padding: 0 40px;
     grid-template-columns: 1fr 1fr; /* Dos columnas en escritorio */
   }
 }
-/* Responsive: bloques más pequeños en móvil */
+
 @media (max-width: 600px) {
   .offer-label,
   .offer-value {

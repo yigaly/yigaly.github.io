@@ -38,8 +38,8 @@ function TosPage() {
       <div className="block">
         <h1>Payment Process</h1>
         <p>
-          I start drawing only after 100% prepayment. All prices are in USD.
-          Please, do not claim a slot if you do not have the money ready.
+          I start drawing only after 100% prepayment. I accept payments in both
+          US dollars (USD) and euros (EUR).
         </p>
       </div>
       <div className="block">
