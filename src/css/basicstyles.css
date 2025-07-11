@@ -1,0 +1,92 @@
+.bckground {
+  background-image: url("/sources/colash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  min-height: 100dvh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.bckground::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.bckground > * {
+  position: relative;
+  z-index: 2;
+}
+
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: clamp(0.8rem, 2vw, 1.5rem);
+}
+h2 {
+  font-size: clamp(0.6rem, 2vw, 1rem);
+  font-weight: 500;
+}
+
+p,
+li {
+  font-size: clamp(0.6rem, 2vw, 0.8rem);
+}
+
+.infopanel {
+  background-color: #181d2adb;
+  border-radius: 5px;
+  width: 80%;
+  height: 80%;
+  max-width: 800px;
+  box-shadow: 0 0 16px 4px #4fc2f79f;
+}
+.layer {
+  width: 80%;
+  height: 80%;
+  max-width: 800px;
+}
+
+.custom-button {
+  background: transparent;
+  border: clamp(1.5px, 0.5vw, 2.5px) solid #ffffff;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s, border-color 0.2s;
+  white-space: nowrap;
+  min-width: fit-content;
+  font-size: clamp(0.6rem, 2vw, 0.8rem);
+  padding: 6px 14px;
+}
+
+.custom-button:hover {
+  box-shadow: 0 0 8px 2px #3365e3;
+  background: rgba(79, 195, 247, 0.08);
+  border-color: #4fc3f7;
+}
+
+.button-panel {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10px;
+  gap: 10px;
+  margin-top: clamp(5px, 2vw, 20px);
+  justify-content: center;
+}
