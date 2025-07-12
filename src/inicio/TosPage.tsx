@@ -38,7 +38,7 @@ function TosPage() {
             <h1>I DRAW</h1>
             <ul>
               <li>Anthros</li>
-              <li>Human / Humanoid</li>
+              <li>Human gay / Humanoid</li>
               <li>Fantasy creatures</li>
               <li>Fanart</li>
               <li>Backgrounds</li>
@@ -106,7 +106,7 @@ function TosPage() {
             </li>
             <li>
               I may use timelapses, photos, and HD versions of your commission
-              for personal purposes such as my social media, Patreon, etc.
+              for personal purposes such as my social media etc.
             </li>
           </ul>
         </motion.div>
