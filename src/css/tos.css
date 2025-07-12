@@ -31,6 +31,11 @@
   padding-bottom: 10px;
   max-width: 650px;
 }
+.blocks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px; /* Puedes ajustar el espacio aquí */
+}
 
 .block h1,
 p {

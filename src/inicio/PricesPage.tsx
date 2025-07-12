@@ -11,9 +11,8 @@ function PricesPage() {
         <div className="priceintro">
           <h1>Yigaly's Price-list</h1>
           <p>
-            Hola que tal chicos, queria decirles que los precios pueden variar
-            dependiendo de muchos factores tanto como oferta demanda o cuanto
-            quiera dibujar
+            Here are my current prices. Although I may not update them very
+            often, please keep in mind they might change in the future
           </p>
           <NavigationButtons />
         </div>
