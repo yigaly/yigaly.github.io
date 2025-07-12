@@ -38,7 +38,7 @@ function TosPage() {
             <h1>I DRAW</h1>
             <ul>
               <li>Anthros</li>
-              <li>Human gay / Humanoid</li>
+              <li>Human / Humanoid</li>
               <li>Fantasy creatures</li>
               <li>Fanart</li>
               <li>Backgrounds</li>
