@@ -51,17 +51,6 @@ function InicioPanel() {
             </a>
             .
             <br />
-            <br />
-            If you want to request a commission, I've made a{" "}
-            <a
-              href="#template"
-              style={{ color: "#4fc3f7", textDecoration: "underline" }}
-            >
-              template
-            </a>{" "}
-            to make it easier to explain your idea (though it's not mandatory).
-            Just fill it out and send it to me by email or Telegram and you'll
-            be attended to as soon as possible ^^
           </p>
           <br />
           <NavigationButtons />
